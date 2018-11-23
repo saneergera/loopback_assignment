@@ -1,0 +1,11 @@
+
+# silently remove old version
+rm -f ./client/lb-services.js
+lb-ng -m lbServices -u http://localhost:3000/api  ./server/server.js ./client/lb-services.js
+
+# silently remove old boot/lb-services
+# rm server/boot/lb-services.js
+
+# creatre sym link to lb-services
+# ln -s ./client/lb-services.js ./server/boot/lb-services.js
+

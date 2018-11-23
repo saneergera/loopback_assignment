@@ -1,0 +1,11 @@
+{
+  "default": {
+    "host": "db-dev.flowace.in",
+    "port": 3306,
+    "database": "node_test",
+    "password": "NodeTest123",
+    "name": "default",
+    "user": "node_test",
+    "connector": "mysql"
+  }
+}

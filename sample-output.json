@@ -1,0 +1,70 @@
+{
+  "matterId": 1000,
+  "matterName": "C32",
+  "estimatedFee": 0,
+  "clientId": 14,
+  "clientName": "H",
+  "groupName": "I",
+  "country": "0",
+  "state": null,
+  "city": "0",
+  "additionalFields": null,
+  "tasks": [
+    {
+      "matterTaskId": 309,
+      "matterId": 1000,
+      "matterTaskName": "Default",
+      "description": null,
+      "createdByUserId": -1,
+      "timestampCreate": "2017-01-09T13:36:37.000Z",
+      "state": 0,
+      "comments": []
+    },
+    {
+      "matterTaskId": 801,
+      "matterId": 1000,
+      "matterTaskName": "Task 1",
+      "description": "Task 1 descriptions",
+      "createdByUserId": 2,
+      "timestampCreate": "2017-06-05T20:12:00.000Z",
+      "state": 1,
+      "comments": [
+        {
+          "matterTaskCommentId": 37,
+          "matterTaskId": 801,
+          "matterId": 1000,
+          "text": "Hello",
+          "createdByUserId": 2,
+          "entryTimestamp": "2017-01-01T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "matterTaskId": 802,
+      "matterId": 1000,
+      "matterTaskName": "Task 2",
+      "description": "Task 2 description",
+      "createdByUserId": 2,
+      "timestampCreate": "2017-06-05T20:11:27.000Z",
+      "state": 0,
+      "comments": [
+        {
+          "matterTaskCommentId": 38,
+          "matterTaskId": 802,
+          "matterId": 1000,
+          "text": "Test comment here",
+          "createdByUserId": 2,
+          "entryTimestamp": "2017-01-01T00:00:00.000Z"
+        },
+        {
+          "matterTaskCommentId": 39,
+          "matterTaskId": 802,
+          "matterId": 1000,
+          "text": "Another test comment",
+          "createdByUserId": 2,
+          "entryTimestamp": "2017-01-01T00:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}
